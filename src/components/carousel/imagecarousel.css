@@ -1,5 +1,5 @@
 .carousel{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .carousel img{
@@ -9,8 +9,15 @@
 
 .slide{
     cursor: default;
+    padding: 0;
 }
 
 .thumbs-wrapper, .carousel-status, .control-dots, .control-arrow{
     display: none;
+}
+
+@media screen and (max-width: 740px){
+    .carousel img{
+        max-height: 50vh;
+    }
 }

@@ -10,14 +10,6 @@
     padding: 0 1rem;
 }
 
-.search-col-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem 0;
-    justify-content: center;
-    align-items: center;
-}
-
 .search .box{
     display: flex;
     max-width: 310px;
@@ -42,7 +34,7 @@
 
 .promo h4{
     font-size: 1.6rem;
-    color: var(--primary-dark);
+    color: #333;
 }
 
 .promo .timer{
@@ -84,10 +76,6 @@
 
 @media screen and (max-width: 940px){
     .search .container{
-        grid-template-columns: 1fr;
-    }
-
-    .search-col-2{
         grid-template-columns: 1fr;
     }
 

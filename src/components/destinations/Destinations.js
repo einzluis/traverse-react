@@ -12,8 +12,8 @@ function Destinations() {
     return (
         <div name='destinations' className='destinations'>
             <div className="container">
+                <h2>Land Down Under's</h2>
                 <h1>All-Inclusive Resorts</h1>
-                <p>On The Land Down Under</p>
                 <div className="img-container">
                     <img className='span-3 image-grid-row-2' src={d1} alt="/" />
                     <img src={d2} alt="/" />

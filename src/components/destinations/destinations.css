@@ -5,7 +5,12 @@
 }
 
 .destinations h1{
-    padding: 1rem 0;
+    padding-bottom: 1rem;
+}
+
+.destinations h2{
+    font-weight: 500;
+    color: var(--primary-dark);
 }
 
 .img-container{
