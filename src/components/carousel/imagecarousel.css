@@ -1,0 +1,16 @@
+.carousel{
+    padding: 2rem 0;
+}
+
+.carousel img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+.slide{
+    cursor: default;
+}
+
+.thumbs-wrapper, .carousel-status, .control-dots, .control-arrow{
+    display: none;
+}
